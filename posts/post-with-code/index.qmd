@@ -5,4 +5,74 @@ date: "2024-07-03"
 categories: [news, code, analysis]
 lang: es 
 
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+number-sections: true  
+
+
+crossref: 
+  tbl-title: Cuadro
+  tbl-prefix: Cuadro
+  lot-title: Lista de Cuadros
+  fig-prefix: Figura
+  
+bibliography: ciencia.bib
+csl: apa.csl
+
+comments: 
+ hypothesis:
+  theme: clean  
 ---
+
+::: {style="color:green;text-align:justify"}
+La ciencia y el poder han mantenido una relación compleja a lo largo de la historia. Mientras que la ciencia busca el conocimiento y la verdad, el poder, en muchas ocasiones, intenta moldear los resultados científicos para servir a sus propios intereses. Esta tensión se manifiesta en varios problemas contemporáneos que enfrenta la ciencia. Según Infobae (2016), entre estos problemas destacan siete en particular: la crisis financiera, el mal diseño de muchos estudios, la escasa revalidación de investigaciones, el fracaso del sistema de revisión por pares, el alto costo de acceso a artículos científicos, la transmisión errónea de la ciencia y el estrés significativo en la vida de los jóvenes científicos.
+:::
+
+::: callout-note
+::: {style="color:green;text-align:justify"}
+La ciencia y el poder han mantenido una relación compleja a lo largo de la historia. Mientras que la ciencia busca el conocimiento y la verdad, el poder, en muchas ocasiones, intenta moldear los resultados científicos para servir a sus propios intereses. Esta tensión se manifiesta en varios problemas contemporáneos que enfrenta la ciencia. Según Infobae (2016), entre estos problemas destacan siete en particular: la crisis financiera, el mal diseño de muchos estudios, la escasa revalidación de investigaciones, el fracaso del sistema de revisión por pares, el alto costo de acceso a artículos científicos, la transmisión errónea de la ciencia y el estrés significativo en la vida de los jóvenes científicos.
+:::
+:::
+
+::: callout-warning
+Estos desafíos requieren una reconfiguración profunda de cómo se practica la ciencia. Un cambio de paradigma hacia una ciencia más orientada a soluciones reales y accesibles es crucial (Velázquez-Pérez y Velázquez-Velázquez, 2023). En este contexto, la ciencia abierta se presenta como una solución prometedora. Esta aboga por la transparencia, accesibilidad y colaboración en la investigación científica.
+:::
+
+::: callout-important
+Según Anglada y Abadal (2018), el proyecto Foster, uno de los portales más completos sobre ciencia abierta, visualiza este concepto como un panal de abejas, donde cada celda representa un componente esencial. Entre estos componentes se encuentran los cuadernos abiertos (open notebooks), datos abiertos, revisión abierta, acceso abierto (open access), software libre, redes sociales académicas, ciencia ciudadana y recursos educativos abiertos.
+
+Es importante diferenciar entre ciencia abierta (@def-definir-1) y acceso abierto (@def-definir-2).
+
+::: {#def-definir-1}
+la ciencia abierta engloba un espectro más amplio de prácticas, incluyendo la apertura de datos, métodos y la participación pública en la investigación ciencia abierta [@mejía-ponce2023].
+:::
+
+::: {#def-definir-2}
+el acceso abierto se refiere principalmente a la disponibilidad gratuita de artículos científicos acceso abierto.
+:::
+:::
+
+::: callout-tip
+Las motivaciones para adoptar la ciencia abierta son variadas: desde el deseo de mejorar la reproducibilidad y transparencia, hasta la necesidad de democratizar el acceso al conocimiento.
+:::
+
+::: callout-caution
+El establecimiento de un marco para la ciencia abierta enfrenta varios desafíos, como la resistencia al cambio por parte de algunas instituciones, la falta de infraestructura adecuada y la necesidad de cambiar las normas de evaluación científica (García-Peñalvo, 2017; Fressoli y Arza, 2018). Además, la ética y la calidad de la información son pilares fundamentales en este modelo, por lo que publicar en el ecosistema de la ciencia abierta requiere adherirse a estándares rigurosos que aseguren la integridad y precisión de los datos [@antunes2020].
+:::
+
+::: panel-tabset
+## Conclusiones
+
+En Latinoamérica, la implementación de normativas en este nuevo contexto presenta tendencias y desafíos específicos. México, por ejemplo, ha experimentado una crisis en su sistema científico debido a la Ley Federal de Austeridad Republicana de Estado y la emisión del memorándum regulador de medidas de austeridad, este último documento “regula” el uso del presupuesto en ciencia y tecnología. La crisis de la ciencia mexicana y los esfuerzos significativos por hacer ciencia abierta en el país ejemplifican los desafíos y oportunidades que se enfrentan en la región (Vázquez-Reyes, 2019; García-Guerrero, 2024; Peña, 2024). En conclusión, la ciencia abierta representa una vía hacia una práctica científica más ética, accesible y colaborativa, pero su implementación requiere un compromiso concertado y una visión estratégica para superar las barreras actuales.
+
+## Bibliografía
+
+Abadal, E. (2021). Ciencia abierta: un modelo con piezas por encajar. *Arbor, 197*(799), a588-a588.
+
+Anglada, L., y Abadal, E. (2018). ¿Qué es la ciencia abierta? *Anuario ThinkEPI, 12*, 292-298.
+
+Antunes, M. D. L., Sanches, T., Lopes, C., y Alonso-Arévalo, J. (2020). Publicar en el ecosistema de la ciencia abierta. *Cuadernos de Documentación Multimedia, (31)*, 1-11.
+:::

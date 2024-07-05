@@ -55,11 +55,11 @@ el acceso abierto se refiere principalmente a la disponibilidad gratuita de art�
 :::
 :::
 
-::: callout-tip
+::: {.callout-tip}
 Las motivaciones para adoptar la ciencia abierta son variadas: desde el deseo de mejorar la reproducibilidad y transparencia, hasta la necesidad de democratizar el acceso al conocimiento.
 :::
 
-::: callout-caution
+::: {.callout-caution}
 El establecimiento de un marco para la ciencia abierta enfrenta varios desafíos, como la resistencia al cambio por parte de algunas instituciones, la falta de infraestructura adecuada y la necesidad de cambiar las normas de evaluación científica (García-Peñalvo, 2017; Fressoli y Arza, 2018). Además, la ética y la calidad de la información son pilares fundamentales en este modelo, por lo que publicar en el ecosistema de la ciencia abierta requiere adherirse a estándares rigurosos que aseguren la integridad y precisión de los datos [@antunes2020].
 :::
 

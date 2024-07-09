@@ -24,6 +24,8 @@ csl: apa.csl
 comments: 
  hypothesis:
   theme: clean  
+  
+
 ---
 
 ::: {style="color:green;text-align:justify"}
@@ -75,3 +77,39 @@ Anglada, L., y Abadal, E. (2018). ¿Qué es la ciencia abierta? *Anuario ThinkEP
 
 Antunes, M. D. L., Sanches, T., Lopes, C., y Alonso-Arévalo, J. (2020). Publicar en el ecosistema de la ciencia abierta. *Cuadernos de Documentación Multimedia, (31)*, 1-11.
 :::
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+library(ggplot2)
+library(readxl)
+Fosforo <- read_excel("Fosforo.xlsx")
+
+```
+
+ 
+```{r}
+ggplot(Fosforo, aes(x = MO, y = `Concentración`)) +
+  geom_point(color = "orange")
+```
+
+
+```{r}
+library(flextable)
+library(docxtractr)
+
+docx <- list.files("Datos/", pattern = "^A.*docx$", full.names = TRUE)
+docx <- read_docx(docx)
+
+
+nombre_vars <-c("MO", "`Concentración`") 
+
+# Olmeca
+arboles <- docx_extract_tbl(docx = docx, tbl_number = 1, header = TRUE)
+
+
+
+
+```
+
+
+
